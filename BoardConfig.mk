@@ -6,8 +6,5 @@
 
 DEVICE_PATH := device/samsung/gta4l
 
-# VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Inherit the proprietary files
 include vendor/samsung/gta4l/BoardConfigVendor.mk
