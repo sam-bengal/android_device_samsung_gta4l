@@ -15,5 +15,8 @@ TARGET_SCREEN_DENSITY := 224
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := gta4l,gta4ltur
 
+# Kernel
+TARGET_KERNEL_CONFIG := gta4l_mea_jt_defconfig
+
 # Inherit the proprietary files
 include vendor/samsung/gta4l/BoardConfigVendor.mk
