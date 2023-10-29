@@ -5,7 +5,7 @@
 #
 
 # Inherit from SM6115-common
-$(call inherit-product, device/xiaomi/SM6115-common/SM6115.mk)
+$(call inherit-product, device/samsung/SM6115-common/SM6115.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
